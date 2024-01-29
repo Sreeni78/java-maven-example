@@ -6,7 +6,7 @@ jobs:
   Sample-build-job:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "This job is runnig on ${{ github.os }}"
+      - run: echo "This job is runnig on ${{ runner.os }}"
       - run: echo "Cloning branch ${{ github.ref }} from repo ${{ github.repository }}"
       ## Cloning source code
       - name: Clone Source Code
