@@ -11,4 +11,4 @@ jobs:
       ## Cloning source code
       - name: Clone Source Code
         uses: actions/checkout@v4
-      - run: Repo ${{ github.repository }}" cloned to the runner"
+      - run: echo "Repo ${{ github.repository }} cloned to the runner"
