@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is building this project
 on:
   push
 jobs:
-  Sample build job:
+  Sample-build-job:
     runs-on: ubuntu-latest
     steps:
       - run: echo "This job is runnig on ${{ github.os }}"
